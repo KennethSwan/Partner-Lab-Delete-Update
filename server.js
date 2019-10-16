@@ -1,0 +1,22 @@
+const crudable = [
+	{
+		name: 
+		power:
+	}
+	{
+		name:
+		power:
+	}
+	{
+		name:
+		power:
+	}
+	{
+		name: 
+		power:
+	}
+	{
+		name
+		power:
+	}
+]

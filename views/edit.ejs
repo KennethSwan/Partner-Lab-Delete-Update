@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Incredibles</title>
+</head>
+<body>
+	<h1>Edit your incredible</h1>
+	<form method="POST" action="/incredibles/<%=index%>?_method=PUT"></form>
+	Name: <input type="text" name="enter name" value="<%=incredibles.name%>"/><br/>
+	Power: <input type="text" name="enter power" value="<%=incredibles.power%>"/><br/>
+	<input type="submit" name="" value="Submit Changes">
+</body>
+</html>

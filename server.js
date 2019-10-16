@@ -26,6 +26,12 @@ app.delete('/incredibles/:index', (req, res) => {
 	res.redirect('/incredibles');
 })
 
+app.get('/incredibles/:index/edit', (req, res) => {
+	res.render('edit.ejs', {
+		incredibles: incredibles[req.params.index],
+		index: req.params.index
+	})
+})
 
 
 

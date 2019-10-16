@@ -5,10 +5,15 @@
 </head>
 <body>
 	<h1>Incredible Family</h1>
+	<ul>
 	<% for (let i = 0; i < incredibles.length; i++) { %>
-		<%= incredibles[i].name %>
-		<%= incredibles[i].power %>
+		<li><%= incredibles[i].name %></li>
+		<li><%= incredibles[i].power %></li>
+	<form action="/incredibles/<%=i%>?_method=DELETE" method="POST">
+		<button type='Submit'>Delete</button>
+	</form>
 	<%}%>
+	</ul>
 
 </body>
 </html>

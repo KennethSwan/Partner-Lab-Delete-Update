@@ -1,4 +1,4 @@
-const crudable = [
+module.exports = [
 	{
 		name: "Mr. Incredible",
 		power: "Super Strength"
@@ -20,3 +20,4 @@ const crudable = [
 		power: "Anger"
 	}
 ]
+
